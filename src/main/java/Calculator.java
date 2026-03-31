@@ -7,17 +7,17 @@
  *
  * @author nitesh.sharma
  */
-public class NewJFrame extends javax.swing.JFrame {
+public class Calculator extends javax.swing.JFrame {
     
               double num1 = 0, num2 = 0;
               String operator = "";
     
-    private static final java.util.logging.Logger logger = java.util.logging.Logger.getLogger(NewJFrame.class.getName());
+    private static final java.util.logging.Logger logger = java.util.logging.Logger.getLogger(Calculator.class.getName());
 
     /**
      * Creates new form NewJFrame
      */
-    public NewJFrame() {
+    public Calculator() {
         initComponents();
     }
 
@@ -425,7 +425,7 @@ public class NewJFrame extends javax.swing.JFrame {
         //</editor-fold>
 
         /* Create and display the form */
-        java.awt.EventQueue.invokeLater(() -> new NewJFrame().setVisible(true));
+        java.awt.EventQueue.invokeLater(() -> new Calculator().setVisible(true));
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
